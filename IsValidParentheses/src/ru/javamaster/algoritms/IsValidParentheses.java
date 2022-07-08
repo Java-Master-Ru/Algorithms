@@ -1,6 +1,16 @@
+/*
+ * @author Java-Master-Ru
+ * @date 8.7.2022
+ */
+
+package ru.javamaster.algoritms;
+
 import java.util.Stack;
 
 public class IsValidParentheses {
+
+    public IsValidParentheses() {
+    }
 
     public static void main(String[] args) {
         System.out.println(IsValidParenthesesWithStack("()"));
