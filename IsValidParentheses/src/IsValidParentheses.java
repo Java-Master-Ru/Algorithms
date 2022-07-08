@@ -1,20 +1,20 @@
 import java.util.Stack;
 
-public class Main {
+public class IsValidParentheses {
 
     public static void main(String[] args) {
-        System.out.println(IsValidParentheses("()"));
-        System.out.println(IsValidParentheses("((()))"));
-        System.out.println(IsValidParentheses("()()()"));
+        System.out.println(IsValidParenthesesWithStack("()"));
+        System.out.println(IsValidParenthesesWithStack("((()))"));
+        System.out.println(IsValidParenthesesWithStack("()()()"));
         System.out.println();
-        System.out.println(IsValidParentheses("()("));
-        System.out.println(IsValidParentheses("((())"));
-        System.out.println(IsValidParentheses(")(())("));
+        System.out.println(IsValidParenthesesWithStack("()("));
+        System.out.println(IsValidParenthesesWithStack("((())"));
+        System.out.println(IsValidParenthesesWithStack(")(())("));
     }
 
 //  Создаем метод
 //  На вход подаем строку, на выходе - false (если скобки неправильно расставлены) или true (если правильно)
-    public static boolean IsValidParentheses(String s) {
+    public static boolean IsValidParenthesesWithStack(String s) {
 //      Создаем стек
         Stack<Character> stack = new Stack<>();
 //      Проходимся по строке
