@@ -6,7 +6,7 @@
 package ru.javamaster.algoritms;
 
 /**
- * Реализация алгоритма линейного поиска
+ * Реализация алгоритма линейного поиска - O(n)
  */
 
 public class LinearSearch {
@@ -14,7 +14,7 @@ public class LinearSearch {
 //        Задаем массив целых чисел и искомое значение
         int[] sequence = new  int[] {-3, 0, 4, 8, 11, 14, 17};
         int element = 8;
-
+//        Выводим индекс искомого элемента
         System.out.println(linearSearch(sequence, element));
     }
 
