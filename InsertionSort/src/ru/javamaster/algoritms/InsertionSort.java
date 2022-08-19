@@ -7,6 +7,9 @@ package ru.javamaster.algoritms;
 
 import java.util.Arrays;
 
+/*
+Сортировка вставкой
+ */
 public class InsertionSort {
 
     public static void main(String[] args) {
