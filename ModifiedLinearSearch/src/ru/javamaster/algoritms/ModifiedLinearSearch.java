@@ -1,11 +1,6 @@
 /*
  * @author Java-Master-Ru
- * @date 27.7.2022
- */
-
-/*
- * @author Java-Master-Ru
- * @date 27.7.2022
+ * @date 27.07.2022
  */
 
 package ru.javamaster.algoritms;

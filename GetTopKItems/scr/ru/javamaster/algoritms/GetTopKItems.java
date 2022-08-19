@@ -1,6 +1,6 @@
 /*
  * @author Java-Master-Ru
- * @date 8.7.2022
+ * @date 08.07.2022
  */
 
 package ru.javamaster.algoritms;
@@ -23,9 +23,8 @@ public class GetTopKItems {
 //      Сортируем исходный массив
         Arrays.sort(data);
 //      Проходимся по массиву
-        for (int i = data.length - k; i < data.length; i++) {
-            result[i - (data.length - k)] = data[i];
-        }
+        if (data.length - (data.length - k) >= 0)
+            System.arraycopy(data, data.length - k, result, 0, data.length - (data.length - k));
         return result;
     }
 }
